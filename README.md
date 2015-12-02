@@ -1,26 +1,10 @@
-# Unofficial WhatsApp for Desktop
+# Printsepeti for Desktop
 
-[![Join the chat at gitter.im/Aluxian/WhatsApp-Desktop](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Aluxian/WhatsApp-Desktop)
-[![Downloads](https://img.shields.io/github/downloads/Aluxian/WhatsApp-Desktop/latest/total.svg)](https://github.com/Aluxian/WhatsApp-Desktop/releases/latest)
+A simple & beautiful desktop client for WhatsApp which runs on OS X, Windows and Linux. Built with [NW.js](http://nwjs.io/).
 
-A simple & beautiful desktop client for WhatsApp which runs on OS X, Windows and Linux. Built with [NW.js](http://nwjs.io/). Not affiliated with WhatsApp or Facebook. This is **NOT** an official product. Read the [DISCLAIMER](https://github.com/Aluxian/WhatsApp-Desktop/blob/master/DISCLAIMER).
-
-![Cross-platform screenshot](screenshot.png)
-
-## *WhatsApp* features
-
-* Group chats
-* Send photos & videos
-* Share locations
-
-## *Unofficial WhatsApp for Desktop* features
-
-* Badge with the number of notifications in the dock/taskbar (OS X and Windows)
-* Auto-launch on OS startup (OS X, Windows)
-* Native notifications (all platforms)l
-* System tray icon (OS X, Windows)
-* Open links in browser or new window
-* Preferences in the right-click context menu (or menu bar for OS X, tray menu for Windows)
+## Printsepeti Desktop Features
+* Send Prints
+* Track Prints
 
 ## Build
 
@@ -68,13 +52,11 @@ This project does not attempt to reverse engineer the WhatsApp API or attempt to
 
 ## Contributions
 
-Contributions are welcome! For feature requests and bug reports please [submit an issue](https://github.com/Aluxian/WhatsApp-Desktop/issues).
+Contributions are welcome! For feature requests and bug reports please [submit an issue](https://github.com/printsepeti/desktop/issues).
 
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 Alexandru Rosianu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
