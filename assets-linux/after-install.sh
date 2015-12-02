@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Link to the binary
-ln -sf /opt/WhatsAppForDesktop/UnofficialWhatsApp /usr/local/bin/whatsappfordesktop
+ln -sf /opt/printsepeti/printsepeti /usr/local/bin/printsepeti
 
 # Launcher icon
-desktop-file-install /opt/WhatsAppForDesktop/whatsappfordesktop.desktop
+desktop-file-install /opt/printsepeti/printsepeti.desktop
