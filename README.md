@@ -1,6 +1,6 @@
 # Printsepeti for Desktop
 
-A simple & beautiful desktop client for WhatsApp which runs on OS X, Windows and Linux. Built with [NW.js](http://nwjs.io/).
+A simple & beautiful desktop client for PrintSepeti which runs on OS X, Windows and Linux. Built with [NW.js](http://nwjs.io/).
 
 ## Printsepeti Desktop Features
 * Send Prints
@@ -46,9 +46,9 @@ The output is in `./dist`. Take a look at `gulpfile.coffee` for additional tasks
 
 **TIP**: for OS X, use the `run:osx64` task to build the app and run it immediately.
 
-## Note to WhatsApp
+## Note to PrintSepeti
 
-This project does not attempt to reverse engineer the WhatsApp API or attempt to reimplement any part of the WhatsApp client. Any communication between the user and WhatsApp servers is handled by WhatsApp Web itself; this is just a native wrapper for WhatsApp Web, more akin to a browser than any WhatsApp software.
+This project does not attempt to reverse engineer the PrintSepeti API or attempt to reimplement any part of the PrintSepeti client. Any communication between the user and PrintSepeti servers is handled by PrintSepeti Web itself; this is just a native wrapper for PrintSepeti Web, more akin to a browser than any PrintSepeti software.
 
 ## Contributions
 

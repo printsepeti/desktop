@@ -1,9 +1,9 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Print Sepeti
+Name=PrintSepeti
 Icon=printsepeti
 Exec=/opt/printsepeti/printsepeti
-Comment=Print Sepeti
+Comment=PrintSepeti
 Categories=Network;Chat;
 Terminal=false

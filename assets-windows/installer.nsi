@@ -1,6 +1,6 @@
 !include "MUI2.nsh"
 
-Name "Print Sepeti"
+Name "PrintSepeti"
 BrandingText "printsepeti.com"
 
 # set the icon
@@ -16,7 +16,7 @@ InstallDir "$PROGRAMFILES\printsepeti\"
 !insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_INSTFILES
 
-!define MUI_FINISHPAGE_RUN_TEXT "Start Print Sepeti"
+!define MUI_FINISHPAGE_RUN_TEXT "Start PrintSepeti"
 !define MUI_FINISHPAGE_RUN "$INSTDIR\printsepeti.exe"
 
 !insertmacro MUI_PAGE_FINISH
@@ -35,12 +35,12 @@ Section
   File /r ..\build\printsepeti\win32\*
 
   # create the uninstaller
-  WriteUninstaller "$INSTDIR\Uninstall Unofficial WhatsApp for Desktop.exe"
+  WriteUninstaller "$INSTDIR\Uninstall PrintSepeti for Desktop.exe"
 
   # create shortcuts in the start menu and on the desktop
-  CreateShortCut "$SMPROGRAMS\Print Sepeti.lnk" "$INSTDIR\printsepeti.exe"
-  CreateShortCut "$SMPROGRAMS\Kaldır Print Sepeti.lnk" "$INSTDIR\uninstall_printsepeti.exe"
-  CreateShortCut "$DESKTOP\Print Sepeti.lnk" "$INSTDIR\printsepeti.exe"
+  CreateShortCut "$SMPROGRAMS\PrintSepeti.lnk" "$INSTDIR\printsepeti.exe"
+  CreateShortCut "$SMPROGRAMS\Kaldır PrintSepeti.lnk" "$INSTDIR\uninstall_printsepeti.exe"
+  CreateShortCut "$DESKTOP\PrintSepeti.lnk" "$INSTDIR\printsepeti.exe"
 
 SectionEnd
 
@@ -51,8 +51,8 @@ Section "Uninstall"
   RMDir /r $INSTDIR
 
   # delete the shortcuts
-  Delete "$SMPROGRAMS\Print Sepeti.lnk"
-  Delete "$SMPROGRAMS\Kaldır Print Sepeti.lnk"
-  Delete "$DESKTOP\Print Sepeti.lnk"
+  Delete "$SMPROGRAMS\PrintSepeti.lnk"
+  Delete "$SMPROGRAMS\Kaldır PrintSepeti.lnk"
+  Delete "$DESKTOP\PrintSepeti.lnk"
 
 SectionEnd

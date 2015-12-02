@@ -65,7 +65,7 @@ gulp.task 'pack:osx64', ['sign:osx64'], ->
   gulp.src []
     .pipe require('gulp-appdmg')
       source: './assets-osx/dmg.json'
-      target: './dist/UnofficialWhatsApp.dmg'
+      target: './dist/PrintSepeti.dmg'
 
 # Create a nsis installer for win32; must have `makensis` installed
 gulp.task 'pack:win32', ['build:win32'], ->
@@ -78,7 +78,7 @@ gulp.task 'pack:win32', ['build:win32'], ->
       shelljs.rm '-rf', './build/linux'
 
       move_opt = gulp.src [
-        './assets-linux/whatsappfordesktop.desktop'
+        './assets-linux/printsepeti.desktop'
         './assets-linux/after-install.sh'
         './assets-linux/after-remove.sh'
         './build/printsepeti/linux' + arch + '/**'

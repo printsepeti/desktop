@@ -1,10 +1,10 @@
 {
-  "name": "UnofficialWhatsApp",
-  "version": "1.1.0",
-  "description": "A simple & beautiful desktop client for WhatsApp. Not an official app.",
+  "name": "PrintSepeti",
+  "version": "1.0.0",
+  "description": "A simple & beautiful desktop client for PrintSepeti.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Aluxian/WhatsApp-Desktop.git"
+    "url": "git@github.com:printsepeti/desktop.git"
   },
   "scripts": {
     "postinstall": "(cd src && npm install)"
@@ -17,7 +17,7 @@
     "gulp-node-webkit-builder": "^1.1.1",
     "gulp-uglify": "^1.2.0",
     "merge-stream": "^0.1.7",
-    "run-sequence": "^1.1.0",
+    "run-sequence": "^1.0.0",
     "shelljs": "^0.5.0"
   },
   "optionalDependencies": {
